@@ -23,6 +23,8 @@ Veri seti: **Airline Passenger Satisfaction**
 - Hedef değişken: `satisfaction` (categorical: *satisfied* / *neutral or dissatisfied*)  
 - Sayısal ve kategorik değişkenler birlikte yer almaktadır.
 
+  ![Veri Yapısı](images/airline_data.png)
+
 ---
 
 ## 🔍 Ana Analiz Adımları
@@ -35,6 +37,8 @@ Veri seti: **Airline Passenger Satisfaction**
 - Ortalama, medyan, standart sapma gibi özetler hesaplandı
 - Simetrik/çarpık dağılım yapıları değerlendirildi
 
+![İstatistiksel Özet](images/istatistik.png)
+
 ### 3. Eksik Değer Analizi
 - `Arrival Delay in Minutes` değişkeninde %0.3 oranında eksik veri bulundu
 - **Medyan ile doldurma** stratejisi tercih edildi (dağılım çarpık olduğu için)
@@ -45,6 +49,9 @@ Veri seti: **Airline Passenger Satisfaction**
 ### 4. Aykırı Değer (Outlier) Analizi
 - IQR yöntemi ile aykırı değerler belirlendi
 - Boxplot grafikleri ile sayısal değişkenlerdeki uç değerler görselleştirildi
+
+  ![Outlier Analizi](images/outlier.png)
+  
 📊 **Boxplot – Sayısal Değişkenler:**
 
 ![Boxplot - Tüm Sayısal Değişkenler](images/boxplot_all.png)
