@@ -38,20 +38,44 @@ Veri seti: **Airline Passenger Satisfaction**
 ### 3. Eksik Değer Analizi
 - `Arrival Delay in Minutes` değişkeninde %0.3 oranında eksik veri bulundu
 - **Medyan ile doldurma** stratejisi tercih edildi (dağılım çarpık olduğu için)
+📊 **Eksik Veri Görselleştirmesi:**
+
+![Eksik Veri Görselleştirme](images/missing_values.png)
 
 ### 4. Aykırı Değer (Outlier) Analizi
 - IQR yöntemi ile aykırı değerler belirlendi
 - Boxplot grafikleri ile sayısal değişkenlerdeki uç değerler görselleştirildi
+📊 **Boxplot – Sayısal Değişkenler:**
+
+![Boxplot - Tüm Sayısal Değişkenler](images/boxplot_all.png)
 
 ### 5. Görselleştirme
 - Sayısal değişkenler için histogram ve KDE grafikleri
 - Kategorik değişkenler için çubuk grafikleri
 - `satisfaction` ile yaş, uçuş mesafesi, hizmet puanları arasındaki ilişkiler (boxplot / violinplot / countplot)
+📊 **Memnuniyet – Yaş İlişkisi:**
+
+![Age vs Satisfaction](images/age_vs_satisfaction.png)
+
+📊 **Memnuniyet – Uçuş Mesafesi (Violinplot):**
+
+![Flight Distance vs Satisfaction](images/flight_distance_vs_satisfaction.png)
+
+📊 **Seyahat Tipi ve Memnuniyet:**
+
+![Type of Travel vs Satisfaction](images/type_of_travel_vs_satisfaction.png)
+
+📊 **Uçuş Sınıfı ve Memnuniyet:**
+
+![Class vs Satisfaction](images/class_vs_satisfaction.png)
+
 
 ### 6. Korelasyon Analizi
 - Sayısal değişkenler arasında korelasyon matrisi çizildi
 - `satisfaction_encoded` ile olan ilişkiler incelendi
+📊 **Korelasyon Matrisi:**
 
+![Correlation Heatmap](images/correlation_matrix.png)
 ---
 
 ## 📷 Örnek Görseller
